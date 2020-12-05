@@ -41,16 +41,18 @@
 \fancyfoot[RO,LE]{\thepage} 
 
 
-\usepackage{titling} 
-
-
+\usepackage{titling}
 \usepackage{hyperref} 
-
 \usepackage{listings}
 \usepackage{xcolor}
 
-\lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
-
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
 
 %----------------------------------------------------------------------------------------
 %	TILULOS
@@ -72,14 +74,17 @@
 \noindent 
 In this article we will see how important tests can be, showing different causes of software failures.
 Also the development of each Test Frameworks named in this article.
+
 \end{abstract}
 
 
 \selectlanguage{spanish}
 \begin{abstract}
 \noindent 
+
 En este articulo veremos lo importante que pueden llegar a ser las pruebas, mostrando diferentes causas de fallas en el software.
 Tambien el desarrollo de cada Frameworks de Pruebas nombrado en este articulo.
+
 \end{abstract}
 
 }
@@ -97,6 +102,7 @@ Tambien el desarrollo de cada Frameworks de Pruebas nombrado en este articulo.
 
 \section{Introduccion}
 
+
 \lettrine[nindent=0em,lines=3]{L}a arquitectura de los microservicios tiene una estructura modular en la que, en lugar de conectar componentes, el software se divide en componentes. Las aplicaciones, por lo tanto, se construyen como un conjunto de servicios que son desplegados de forma independiente, escalables y flexibles.
 
 Las aplicaciones de Internet utilizan API de servicios web en forma de SOAP (Simple Object Access Protocol) o REST (Representational State Transfer). Aunque hay diferencias técnicas y de arquitectira, en términos de entrada-salida, ambos protocolos utilizan formato basados en texto; SOAP utiliza la notación XML y REST utiliza la notación JSON. Ambos formatos son fáciles de aprender.
@@ -110,6 +116,34 @@ Aunque los Microservicios ofrecen muchos beneficios, como escalabilidad, modific
 
 
 \section{Desarrollo}
+
+\subsection{API}
+
+Una API es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones. [12]
+
+Las API permiten que sus productos y servicios se comuniquen con otros, sin necesidad de saber cómo están implementados. [12]
+
+Las API le otorgan flexibilidad; simplifican el diseño, la administración y el uso de las aplicaciones. [12]
+
+\subsubsection{Enfoques de las políticas de versiones}
+
+\begin{description}
+  \item[Privado]
+   Las API solo se pueden usar internamente, así que las empresas tienen un mayor control sobre ellas.
+  \item[De partners]
+  Las API se comparten con partners empresariales específicos, lo cual puede ofrecer flujos de ingresos adicionales, sin comprometer la calidad.
+  \item[Público]
+  Todos tienen acceso a las API, así que otras empresas pueden desarrollar API que interactúen con las de usted y así convertirse en una fuente de innovaciones.
+\end{description}
+
+\subsubsection{SOAP y REST}
+
+A medida que se han difundido las API, se han desarrollado especificaciones de protocolo para permitir la estandarización del intercambio de información, los cuales son:
+
+\begin{description}
+  \item[SOAP] Protocolo de Acceso a Objetos Simples. Se usan con XML como formato de mensajes y con solicitudes HTTP y SMTP.
+  \item[REST] Transferencia de Estado Representacional. Es un estilo de arquitectura, es decir, no hay ningún estándar oficial para las API web de RESTful (API web que usa REST).
+\end{description}
 
 \subsection{Pruebas de API (API testing)}
 
@@ -261,6 +295,48 @@ Postman cuenta con un plan gratuito y varios planes de pago. Todos los planes pe
   \item Obtenga acuerdos personalizados y condiciones de pago adaptadas a su organización
 \end{itemize}
 
+\subsubsection{Caso de uso de Postman}
+
+En el método usado en el documento ``Development of a REST API for obtaining site-specific historical and near-future weather data in EPW format" [10] para crear una REST API, se usa Postman para realizar las pruebas de factibilidad.
+
+En lugar de desarrollar una API desde cero, un buen lugar para empezar es conectar con otra API primero.
+
+Una REST API ofrece los métodos HTTP estandar (OPTIONS, GET, PUT, POST, y DELETE). El método más común para obtener información es GET y es el que se usa en el Paso 1 del siguiente ejemplo.
+
+\begin{lstlisting}[language=java]
+Step 1:
+
+GET https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/31201/?api_key={{AEMET_api_key}code}
+
+{
+  "descripcion": "exito",
+  "estado": 200,
+  "datos": "https://opendata.aemet.es/opendata/sh/d320c34f",
+  "metadatos": "https://opendata.aemet.es/opendata/sh/93a7c63d"
+}
+
+Step 2
+
+tests['Status Code is 200'] = (responseCode.code===200);
+
+if (responseCode.code === 200) {
+  try {
+    var body_text=JSON.parse(responseBody),
+      datosURL=body_text.datos,
+      metadatosURL=body_text.metadatos;
+  } catch(e) {
+    console.log(e);
+  }
+  
+  postman.setGlobalVariable("datosURL",datosURL);
+  postman.setGlobalVariable("metadatosURL",metadatosURL);
+}
+
+Step 3:
+
+GET {{datosURL}
+\end{lstlisting}
+
 \subsection{Postman y Katalon}
 
 \subsubsection{Comparación de capacidades}
@@ -344,6 +420,12 @@ Alrededor de la idea de testear las APIs, Postman nos ofrece un conjunto de util
 \newblock Postman. (s. f.-a). Plans \& Pricing. Recuperado 4 de diciembre de 2020, de https://www.postman.com/pricing/
 \bibitem[9]{}
 \newblock Katalon Studio. (2020, 27 mayo). SoapUI vs Postman, Katalon Studio: A Review of Top 3 API Tools. Katalon Solution. https://www.katalon.com/resources-center/blog/soapui-vs-postman-katalon-api-tools/
+\bibitem[10]{}
+\newblock Du, H., Jones, P., Segarra, E. L., \& Bandera, C. F. (2018). Development of a REST API for obtaining site-specific historical and near-future weather data in EPW format.
+\bibitem[11]{}
+\newblock Soni, A., \& Ranga, V. (2019). API Features Individualizing of Web Services: REST and SOAP. International Journal of Innovative Technology and Exploring Engineering, 8, 664-671.
+\bibitem[12]{}
+\newblock Red Hat. (s. f.). ¿Qué es una API? Recuperado 5 de diciembre de 2020, de https://www.redhat.com/es/topics/api/what-are-application-programming-interfaces
 \end{thebibliography}
 
 %----------------------------------------------------------------------------------------

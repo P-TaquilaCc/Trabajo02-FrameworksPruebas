@@ -1,18 +1,22 @@
 \BOOKMARK [1][-]{section.1}{Introduccion}{}% 1
 \BOOKMARK [1][-]{section.2}{Desarrollo}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Pruebas de API \(API testing\)}{section.2}% 3
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Ventajas}{subsection.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.2}{Pruebas de API con Katalon Studio}{section.2}% 5
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Katalon Studio}{subsection.2.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Caracter\355sticas}{subsection.2.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Compa\361ias que usan Katalon}{subsection.2.2}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Precios}{subsection.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.3}{Pruebas de API con Postman}{section.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Postman}{subsection.2.3}% 11
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Caracter\355sticas}{subsection.2.3}% 12
-\BOOKMARK [3][-]{subsubsection.2.3.3}{Compa\361ias que usan Postman}{subsection.2.3}% 13
-\BOOKMARK [3][-]{subsubsection.2.3.4}{Precios}{subsection.2.3}% 14
-\BOOKMARK [2][-]{subsection.2.4}{Postman y Katalon}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Comparaci\363n de capacidades}{subsection.2.4}% 16
-\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 17
-\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 18
+\BOOKMARK [2][-]{subsection.2.1}{API}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Enfoques de las pol\355ticas de versiones}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{SOAP y REST}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Pruebas de API \(API testing\)}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Ventajas}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Pruebas de API con Katalon Studio}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Katalon Studio}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Caracter\355sticas}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Compa\361ias que usan Katalon}{subsection.2.3}% 11
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Precios}{subsection.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Pruebas de API con Postman}{section.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Postman}{subsection.2.4}% 14
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Caracter\355sticas}{subsection.2.4}% 15
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Compa\361ias que usan Postman}{subsection.2.4}% 16
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Precios}{subsection.2.4}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Caso de uso de Postman}{subsection.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.5}{Postman y Katalon}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Comparaci\363n de capacidades}{subsection.2.5}% 20
+\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 21
+\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 22
