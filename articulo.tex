@@ -82,9 +82,7 @@
 \selectlanguage{spanish}
 \begin{abstract}
 \noindent 
-Los patrones de diseño dan un mecanismo codificado para describir problemas y su solución en forma tal que permiten que la comunidad de ingeniería de software diseñe el conocimiento para que sea reutilizado.
-Un patrón describe un problema, indica el contexto y permite que el usuario entienda el ambiente en el que sucede el problema, y enlista un sistema de fuerzas que indican cómo puede interpretarse el problema en su contexto, y el modo en el que se aplica la solución.
-El patron Abstract Factory suele implementarse con metodos de fabricacion que tambien generalmente son llamados desde el interior de Template Method.
+
 \end{abstract}
 
 }
@@ -113,12 +111,98 @@ El patron Abstract Factory suele implementarse con metodos de fabricacion que ta
 
 \section{Desarrollo}
 
+\subsection{Pruebas de API (API testing)}
+
+Las pruebas de API se realizan en la capa más crítica de la aplicación: \textbf{La capa de negocio}, en la que se lleva a cabo la lógica de negocio y las trnasacciones entre la interfaz de usuario y la capa de base de datos ocurren. [1]
+
+\subsubsection{Ventajas}
+
+A continuación se nombran algunas ventajas de las pruebas de API sobre otros tipos de pruebas. [1]
+
+\begin{itemize}
+  \item \textbf{Independiente del lenguaje} \\
+  Los datos se intercambian a través de formatos XML y JSON, por lo que se puede utilizar cualquier lenguaje para la automatización de pruebas. XML y JSON suelen ser datos estructurados, lo que hace que la verificación sea rápida y estable. También hay bibliotecas integradas para admitir la comparación de datos utilizando estos formatos de datos.
+  \item \textbf{Independiente de la GUI} \\
+  Las pruebas de API se pueden realizar en la aplicación antes de las pruebas de GUI. Las pruebas tempranas significan retroalimentación temprana y una mejor productividad del equipo. Las funcionalidades centrales de la aplicación se pueden probar para exponer pequeños errores y evaluar las fortalezas de la compilación.
+  \item \textbf{Cobertura de prueba mejorada} \\
+  La mayoría de los servicios web / API tienen especificaciones, lo que le permite crear pruebas automatizadas con una alta cobertura, incluidas las pruebas funcionales y las no funcionales.
+  \item \textbf{Lanzamientos más rápidos} \\
+  Es común que la ejecución de pruebas de API ahorre hasta ocho horas en comparación con las pruebas de IU, lo que permite a los equipos de desarrollo de software lanzar productos más rápido.
+\end{itemize}
 
 
 
-\includegraphics[width=8cm]{Imagenes/imagen}
 
-La clase Hamburguesa extiende de Comida e implementa los tres métodos abstractos de Comida.
+\subsection{Pruebas de API con Katalon Studio}
+
+\subsubsection{Katalon Studio}
+
+Katalon Studio es una herramienta de licencia gratuita lanzada en enero de 2015 con un motor basado en Selenium. Principalmente, Katalon está diseñado para crear y reutilizar scripts de prueba automatizados para UI sin codificación. Katalon Studio permite ejecutar pruebas automatizadas de elementos de la interfaz de usuario, incluidas ventanas emergentes, iFrames y tiempo de espera. La herramienta se puede ejecutar en Microsoft Windows, macOS y Linux. [2]
+
+\subsubsection{Compañias que usan Katalon}
+
+A continuación se nombran algunas de las compañias que usan Katalon. [3]
+
+\begin{itemize}
+  \item New Jersey Institute of Technology
+  \item Metric Tree Labs
+  \item BAE Systems
+  \item Cognitio Corp.
+  \item EZLynx
+\end{itemize}
+
+\subsubsection{Características}
+
+A continuación se mencionan algunas características de las pruebas de API realizadas con Katalon. [1]
+
+\begin{itemize}
+  \item \textbf{IDE productivo para la automatización de API} \\
+  Optimiza los procesos de secuencias de comandos, depuración y mantenimiento de pruebas con autocompletado, inspección de código, fragmentos, referencias rápidas, depurador, interfaz dual, etc.  
+  \item \textbf{Centrado en API} \\
+  Katalon admite todo tipo de solicitudes REST, SOAP / 1.1 y SOAP / 1.2. Sus pruebas se pueden importar desde Swagger, Postman y WSDL.
+  \item \textbf{Construido para trabajar con marcos modernos} \\
+  Pruebas basadas en datos simplificadas con múltiples fuentes de datos (por ejemplo, XLS, CSV) y bases de datos compatibles. Katalon también admite BDD con archivos Cucumber y editor nativo Gherkin.
+  \item \textbf{Plataforma sostenible y escalable} \\
+  Habilita las prácticas de Integración Continua y DevOps. Fácil implementación con contenedores Docker. Ejecución local y remota con analítica en tiempo real.
+  \item \textbf{Mantenimiento mínimo} \\
+  Reutilice artefactos de prueba en diferentes proyectos. Defina escenarios de prueba y planes de ejecución con capacidades de gestión de conjuntos de pruebas.
+\end{itemize}
+
+\subsection{Pruebas de API con Postman}
+
+\subsubsection{Postman}
+
+Postman es una plataforma de colaboración para el desarrollo de APIs. Las funciones de Postman simplifican cada paso de la creación de una API y agilizan la colaboración para que pueda crear mejores APIs, más rápido. [5]
+
+\subsubsection{Características}
+
+A continuación se mencionan algunas características de Postman. [5]
+
+\begin{itemize}
+  \item \textbf{Es gratis y fácil de comenzar} \\
+  Simplemente descargue la aplicación Postman y envíe su primera solicitud en minutos. Postman se puede descargar y utilizar de forma gratuita para equipos de cualquier tamaño.
+
+  \item \textbf{Amplio soporte para todas las API y esquemas} \\
+  Realice cualquier tipo de llamada a la API (REST, SOAP o HTTP simple) e inspeccione fácilmente incluso las respuestas más grandes. Postman también tiene soporte integrado para formatos de datos populares como OpenAPI GraphQL y RAML.
+
+  \item \textbf{Es extensible} \\
+  Personalice Postman según sus necesidades con la API Postman. Integre conjuntos de pruebas en su servicio de CI / CD preferido con Newman, nuestro corredor de recopilación de línea de comandos.
+
+  \item \textbf{Soporte y comunidad} \\
+  Continuamente realizamos mejoras y agregamos nuevas funciones en función de los comentarios de nuestra comunidad de más de 13 millones de usuarios, que también pueden ayudarlo a aprovechar al máximo Postman en nuestro foro comunitario.
+\end{itemize}
+
+\subsubsection{Compañias que usan Postman}
+
+A continuación se nombran algunas de las compañias que usan Postman. [4]
+
+\begin{itemize}
+  \item Fiserv
+  \item Caterpillar Inc.
+  \item Wells Fargo
+  \item U.S. Bank
+  \item CoStar Group
+\end{itemize}
 
 
 
@@ -139,7 +223,6 @@ La conclusión
 
 \begin{itemize}
 \item Cuando se conoce el efecto colateral que conlleva el patrón de diseño y es viable la aparición de este efecto.
-\item Suministrar alternativas de diseño para poder tener un software flexible y reutilizable.
 
 \end{itemize}
 
@@ -153,17 +236,15 @@ La conclusión
 \begin{thebibliography}{99} 
 
 \bibitem[1]{}
-\newblock Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John(1995).Design Patterns: Elements of Reusable Object- Oriented Software. Reading,Massachusetts: Addison Wesley Longman, Inc.
-
+\newblock Katalon LLC. (2019, 22 octubre). What is API Testing? | Definition, Benefits, Types \& Tool. Katalon Solution. https://www.katalon.com/api-testing/
 \bibitem[2]{}
-\newblock Nesteruk, D. (2019). Design Patterns in .NET: Reusable Approaches C\# in and F\# for Object-Oriented Software Design (1st ed.). Apress.
-
+\newblock Editor. (2019, 9 diciembre). The Good and the Bad of Katalon Studio Automation Testing Tool. AltexSoft. https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-katalon-studio-automation-testing-tool/
 \bibitem[3]{}
-\newblock Patrones de Diseño. Elementos de software orientado a objetos reutilizable. ERICH GAMMA. RICHARD HELM. RALPH JOHNSON. JOHN VLISSIDES.
-
+\newblock HG Insights. (s. f.). Companies Using Katalon Studio, Market Share, Customers and Competitors. Recuperado 4 de diciembre de 2020, de https://discovery.hgdata.com/product/katalon-studio
 \bibitem[4]{}
-\newblock Patrones de diseño en Java: Los 23 modelos de diseño: descripción y solución ilustradas en UML 2 y Java Autor: Laurent Debrauwer
-
+\newblock HG Insights. (s. f.-b). Companies Using Postman, Market Share, Customers and Competitors. Recuperado 4 de diciembre de 2020, de https://discovery.hgdata.com/product/postman
+\bibitem[5]{}
+\newblock Postman. (s. f.). Postman | The Collaboration Platform for API Development. Recuperado 4 de diciembre de 2020, de https://www.postman.com/
 \end{thebibliography}
 
 
