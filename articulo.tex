@@ -70,14 +70,16 @@
 \selectlanguage{english}
 \begin{abstract}
 \noindent 
-
+In this article we will see how important tests can be, showing different causes of software failures.
+Also the development of each Test Frameworks named in this article.
 \end{abstract}
 
 
 \selectlanguage{spanish}
 \begin{abstract}
 \noindent 
-
+En este articulo veremos lo importante que pueden llegar a ser las pruebas, mostrando diferentes causas de fallas en el software.
+Tambien el desarrollo de cada Frameworks de Pruebas nombrado en este articulo.
 \end{abstract}
 
 }
@@ -95,8 +97,11 @@
 
 \section{Introduccion}
 
-\lettrine[nindent=0em,lines=3]{L}os
+\lettrine[nindent=0em,lines=3]{L}a arquitectura de los microservicios tiene una estructura modular en la que, en lugar de conectar componentes, el software se divide en componentes. Las aplicaciones, por lo tanto, se construyen como un conjunto de servicios que son desplegados de forma independiente, escalables y flexibles.
 
+Las aplicaciones de Internet utilizan API de servicios web en forma de SOAP (Simple Object Access Protocol) o REST (Representational State Transfer). Aunque hay diferencias técnicas y de arquitectira, en términos de entrada-salida, ambos protocolos utilizan formato basados en texto; SOAP utiliza la notación XML y REST utiliza la notación JSON. Ambos formatos son fáciles de aprender.
+
+Aunque los Microservicios ofrecen muchos beneficios, como escalabilidad, modificabilidad y agilidad en la entrega continua, utilizando microservicios, hacemos que las pruebas de software sean más complejas. Al testear microservicios, debemos asegurarnos no sólo que el microservicio específico funcione, sino también que todos sus microservicios, cuando están juntos, se comporten como se esperaba. Para ellos, tenemos que hacer pruebas de integración. 
 
 
 %----------------------------------------------------------------------------------------
