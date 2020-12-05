@@ -1,7 +1,7 @@
-PWD c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas
+PWD c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\articulo.tex
-OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.log
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\articulo.tex
+OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.log
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -231,6 +231,46 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\lett
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\lettrine\lettrine.cfg
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\lettrine\lettrine.cfg
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\lettrine\lettrine.cfg
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
@@ -491,19 +531,6 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\list
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -513,10 +540,10 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3ba
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.aux
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.aux
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.aux
-OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.aux
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.aux
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.aux
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.aux
+OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.aux
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -561,18 +588,18 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\generic\ge
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.pdf
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.pdf
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+OUTPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9e.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9e.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9e.tfm
@@ -663,9 +690,20 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\publ
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.aux
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
-INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\trabajo01\Trabajo02-FrameworksPruebas\build\articulo.out
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri9e.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9e.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri9e.vf
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb9e.vf
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmb.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri9e.vf
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.aux
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
+INPUT c:\upt\calidad_y_pruebas_de_software\2\trabajos\Trabajo02-FrameworksPruebas - copia\build\articulo.out
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
@@ -675,3 +713,5 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\ur
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplri8a.pfb
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplri8a.pfb

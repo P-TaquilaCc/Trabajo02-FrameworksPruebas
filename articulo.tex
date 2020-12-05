@@ -7,17 +7,15 @@
 \linespread{1.05} 
 \usepackage{microtype} 
 
-\usepackage[utf8]{inputenc} 
-
-
+\usepackage[utf8]{inputenc}
 \usepackage[spanish,english]{babel} 
 
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} 
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
 \usepackage{booktabs} 
-
 \usepackage{lettrine} 
-
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{multicol, blindtext}
 
 \usepackage{enumitem} 
 \setlist[itemize]{noitemsep} 
@@ -39,7 +37,7 @@
 \pagestyle{fancy} 
 \fancyhead{} 
 \fancyfoot{} 
-\fancyhead[C]{Patrones de Diseño $\bullet$ Octubre 2020 $\bullet$ } 
+\fancyhead[C]{Frameworks de pruebas $\bullet$ Diciembre 2020 $\bullet$ } 
 \fancyfoot[RO,LE]{\thepage} 
 
 
@@ -63,7 +61,7 @@
 
 \pretitle{\begin{center}\Huge\bfseries} 
 \posttitle{\end{center}} 
-\title{Patrones de Diseño} 
+\title{Frameworks de pruebas} 
 \author{Percy Taquila Carazas, Katerin Merino Quispe, Abraham Lipa Calabilla,
 \\Edwart Balcon Coahila, Lisbeth Espinoza Caso}
 \date{\today} 
@@ -127,26 +125,11 @@ A continuación se nombran algunas ventajas de las pruebas de API sobre otros ti
   Es común que la ejecución de pruebas de API ahorre hasta ocho horas en comparación con las pruebas de IU, lo que permite a los equipos de desarrollo de software lanzar productos más rápido.
 \end{itemize}
 
-
-
-
 \subsection{Pruebas de API con Katalon Studio}
 
 \subsubsection{Katalon Studio}
 
 Katalon Studio es una herramienta de licencia gratuita lanzada en enero de 2015 con un motor basado en Selenium. Principalmente, Katalon está diseñado para crear y reutilizar scripts de prueba automatizados para UI sin codificación. Katalon Studio permite ejecutar pruebas automatizadas de elementos de la interfaz de usuario, incluidas ventanas emergentes, iFrames y tiempo de espera. La herramienta se puede ejecutar en Microsoft Windows, macOS y Linux. [2]
-
-\subsubsection{Compañias que usan Katalon}
-
-A continuación se nombran algunas de las compañias que usan Katalon. [3]
-
-\begin{itemize}
-  \item New Jersey Institute of Technology
-  \item Metric Tree Labs
-  \item BAE Systems
-  \item Cognitio Corp.
-  \item EZLynx
-\end{itemize}
 
 \subsubsection{Características}
 
@@ -164,6 +147,50 @@ A continuación se mencionan algunas características de las pruebas de API real
   \item \textbf{Mantenimiento mínimo} \\
   Reutilice artefactos de prueba en diferentes proyectos. Defina escenarios de prueba y planes de ejecución con capacidades de gestión de conjuntos de pruebas.
 \end{itemize}
+
+\subsubsection{Compañias que usan Katalon}
+
+A continuación se nombran algunas de las compañias que usan Katalon. [3]
+
+\begin{itemize}
+  \item New Jersey Institute of Technology
+  \item Metric Tree Labs
+  \item BAE Systems
+  \item Cognitio Corp.
+  \item EZLynx
+\end{itemize}
+
+\subsubsection{Precios}
+
+La versión de pago es Katalon Studio Enterprise y cuenta con un tiempo de prueba de 30 días, luego de ese tiempo automáticamente se cambiará a la versión gratuita Katalon Studio (Free). [6] Sin embargo, también se puede acceder a la versión de pago que es Katalon Studio Enterprise. Además el precio puede variar entre una licencia asociada a un nodo (Node-locked license) y una licencia para múltiples nodos (Floating license). [7] \\
+
+\textbf{Katalon Studio (Free)} \\
+
+Un IDE productivo para la generación de casos de prueba,
+con ejecución multiplataforma.
+
+\begin{itemize}
+  \item Web testing
+  \item API testing
+  \item Mobile testing
+  \item Desktop testing
+\end{itemize}
+
+\textbf{Katalon Studio Enterprise} \\
+
+Una solución avanzada, potente y escalable para empresas de cualquier tamaño.
+
+\begin{itemize}
+  \item Todas las funciones de Katalon Studio
+  \item Funciones ampliadas
+  \item Complementos privados
+  \item Portal del servicio de asistencia
+\end{itemize}
+
+\begin{description}
+  \item[Node-locked license] \$759 al año
+  \item[Floating license] \$1529 al año
+\end{description}
 
 \subsection{Pruebas de API con Postman}
 
@@ -201,6 +228,60 @@ A continuación se nombran algunas de las compañias que usan Postman. [4]
   \item CoStar Group
 \end{itemize}
 
+\subsubsection{Precios}
+
+Postman cuenta con un plan gratuito y varios planes de pago. Todos los planes permiten diseñar, desarrollar y probar APIs. [8] \\
+
+\textbf{Free}: Ideal para desarrolladores individuales \\
+
+\textbf{Team}: Ideal para 1-19 usuarios. Precio \$144 \\
+
+\begin{itemize}
+  \item Acelera el desarrollo con herramientas poderosas
+\end{itemize}
+
+\textbf{Business}: Ideal para 20-99 usuarios. Precio \$288 \\
+
+\begin{itemize}
+  \item Incluye las características del plan Team
+  \item Autenticar usuarios con SSO
+  \item Controlar el acceso, los roles y los permisos
+\end{itemize}
+
+\textbf{Enterprise}: Ideal para 100+ usuarios \\
+
+\begin{itemize}
+  \item Incluye las características del plan Business
+  \item Habilita la gobernanza y alinear toda su organización
+  \item Obtenga acuerdos personalizados y condiciones de pago adaptadas a su organización
+\end{itemize}
+
+\subsection{Postman y Katalon}
+
+\subsubsection{Comparación de capacidades}
+
+En la tabla 1 se muestran las principales diferencias de las capacidades entre Postman y Katalon.
+
+\begin{table*}[]
+\begin{tabular}{p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth}}
+\toprule
+\textbf{Capacidades}              & \cellcolor[HTML]{FFFFFF}{\color[HTML]{FF6D2A} \textbf{Postman}} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{0EA4DD} \textbf{Katalon}}    \\ \midrule
+\textit{REST API Testing}                    & Sí         & Sí           \\
+\textit{SOAP API Testing}                    & No         & Sí           \\
+\textit{Generación automática de Assertions} & Sí         & Sí           \\
+\textit{Reusabilidad de sripts de pruebas}   & Ninguna    & Alta         \\
+\textit{Soporte para Data-driven} & JSON, CVS                                                       & Excel, JSON, CVS, Datasource, datos internos                       \\
+\textit{Soporte para BDD Cucumber}           & No         & Sí           \\
+\textit{Manejo de entorno}                   & Sí         & Sí           \\
+\textit{Reportes de pruebas}      & JSON simple, formatos HTML                                      & Reportes en consola, logs, HTML y reportes avanzados de analíticas \\
+\textit{Lenguajes de scripting}              & Javascript & Groovy, Java \\
+\textit{Web UI Testing}                      & No         & Sí           \\
+\textit{Mobile app testing}                  & No         & Sí           \\
+\textit{Analíticas de ejecución de pruebas}  & No         & Sí           \\ \bottomrule
+\end{tabular}
+\caption{Tabla comparativa de capacidades - Postman y Katalon [9]}
+\label{tabla1}
+\end{table*}
 
 
 %----------------------------------------------------------------------------------------
@@ -250,8 +331,15 @@ Alrededor de la idea de testear las APIs, Postman nos ofrece un conjunto de util
 \newblock HG Insights. (s. f.-b). Companies Using Postman, Market Share, Customers and Competitors. Recuperado 4 de diciembre de 2020, de https://discovery.hgdata.com/product/postman
 \bibitem[5]{}
 \newblock Postman. (s. f.). Postman | The Collaboration Platform for API Development. Recuperado 4 de diciembre de 2020, de https://www.postman.com/
+\bibitem[6]{}
+\newblock Katalon. (2020, 1 diciembre). Katalon Trial and Free Plans. https://docs.katalon.com. https://docs.katalon.com/katalon-studio/docs/trial-free-plans.html
+\bibitem[7]{}
+\newblock Katalon LLC. (2020, 18 marzo). Katalon Pricing | Flexible Plans for Teams \& Projects of any size. Katalon Solution. https://www.katalon.com/pricing/
+\bibitem[8]{}
+\newblock Postman. (s. f.-a). Plans \& Pricing. Recuperado 4 de diciembre de 2020, de https://www.postman.com/pricing/
+\bibitem[9]{}
+\newblock Katalon Studio. (2020, 27 mayo). SoapUI vs Postman, Katalon Studio: A Review of Top 3 API Tools. Katalon Solution. https://www.katalon.com/resources-center/blog/soapui-vs-postman-katalon-api-tools/
 \end{thebibliography}
-
 
 %----------------------------------------------------------------------------------------
 
