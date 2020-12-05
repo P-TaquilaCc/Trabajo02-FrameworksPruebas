@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.8)  3 DEC 2020 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.8)  4 DEC 2020 20:18
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -470,32 +470,32 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
 
 LaTeX Warning: Label `' multiply defined.
 
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
 )
 \openout1 = `articulo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -519,14 +519,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \big@size=\dimen258
-LaTeX Info: Redefining \microtypecontext on input line 94.
+LaTeX Info: Redefining \microtypecontext on input line 92.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 94.
+LaTeX Info: Redefining \showhyphens on input line 92.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -574,7 +574,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 94.
+Package hyperref Info: Link coloring OFF on input line 92.
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -587,40 +587,40 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
  (articulo.out) (articulo.out)
 \@outlinefile=\write3
 \openout3 = `articulo.out'.
 
 \c@lstlisting=\count306
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-98.
+96.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-98.
+96.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-98.
+96.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-98.
+96.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-98.
+96.
 
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -629,8 +629,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -640,90 +640,170 @@ Package microtype Info: Character `029' is missing
 Package lettrine.sty Info: Targeted height = 30.07506pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 30.07518pt (L);
-(lettrine.sty)             reported on input line 105.
-<Imagenes/imagen.png, id=19, 349.305pt x 189.70876pt>
-File: Imagenes/imagen.png Graphic file (type png)
-<use Imagenes/imagen.png>
-Package pdftex.def Info: Imagenes/imagen.png  used on input line 119.
-(pdftex.def)             Requested size: 227.62204pt x 123.62474pt.
-
-Overfull \hbox (22.61974pt too wide) in paragraph at lines 119--120
-[] 
- []
-
+(lettrine.sty)             reported on input line 103.
 LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 
-141.
+123.
+
 (C:\Users\Percy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 )
-LaTeX Info: Redefining \. on input line 152.
-LaTeX Info: Redefining \% on input line 152.
-
-Underfull \hbox (badness 1112) in paragraph at lines 162--163
-\T1/pplx/m/n/10 (+20) GAM-MA. RI-CHARD HELM. RALPH
- []
-
 [1{C:/Users/Percy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.166 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.166 
-       <./Imagenes/imagen.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
- [2pdfTeX warning (ext4): destination with the same identifier (name{cite.}) ha
-s been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.173 \end{document}
-                    
-
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
- (articulo.aux
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
-Package rerunfilecheck Info: File `articulo.out' has not changed.
-(rerunfilecheck)             Checksum: 41262FB24B782955903B36C95886C8CE;189.
+Underfull \hbox (badness 1577) in paragraph at lines 163--165
+[]\T1/pplx/b/n/10 Construido para tra-ba-jar con mar-cos
+ []
 
+
+Underfull \hbox (badness 3058) in paragraph at lines 191--193
+\T1/pplx/m/n/10 (+20) Continuamente re-al-izamos mejo-ras y
+ []
+
+[2]
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+
+Underfull \hbox (badness 3612) in paragraph at lines 239--240
+\T1/pplx/m/n/10 (+20) is API Tes-ting? | De-fi-ni-tion, Be-ne-
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 239--240
+\T1/pplx/m/n/10 (+20) fits, Ty-pes & Tool. Ka-ta-lon So-lu-tion.
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 241--242
+\T1/pplx/m/n/10 (+20) and the Bad of Ka-ta-lon Stu-dio Au-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\T1/pplx/m/n/10 (+20) to-ma-tion Tes-ting Tool. Al-tex-Soft.
+ []
+
+
+Overfull \hbox (40.37895pt too wide) in paragraph at lines 241--242
+\T1/pplx/m/n/10 (-20) https://www.altexsoft.com/blog/engineering/the-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\T1/pplx/m/n/10 (+20) good-and-the-bad-of-katalon-studio-
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 243--244
+\T1/pplx/m/n/10 (+20) Ka-ta-lon Stu-dio, Mar-ket Sha-re, Cus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+\T1/pplx/m/n/10 (+20) to-mers and Com-pe-ti-tors. Re-cu-pe-
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 243--244
+\T1/pplx/m/n/10 (+20) ra-do 4 de di-ciem-bre de 2020, de
+ []
+
+
+Overfull \hbox (27.3971pt too wide) in paragraph at lines 243--244
+\T1/pplx/m/n/10 (-20) https://discovery.hgdata.com/product/katalon-
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 245--246
+[] \T1/pplx/m/n/10 (+20) HG In-sights. (s. f.-b). Com-pa-nies
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 245--246
+\T1/pplx/m/n/10 (+20) Using Post-man, Mar-ket Sha-re, Cus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+\T1/pplx/m/n/10 (+20) to-mers and Com-pe-ti-tors. Re-cu-pe-
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 245--246
+\T1/pplx/m/n/10 (+20) ra-do 4 de di-ciem-bre de 2020, de
+ []
+
+
+Overfull \hbox (31.3015pt too wide) in paragraph at lines 245--246
+\T1/pplx/m/n/10 (-20) https://discovery.hgdata.com/product/postman 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+[3pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has
+ been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 \end{document}
+                    ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+ (articulo.aux
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
+
+
+Package rerunfilecheck Warning: File `articulo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `articulo.out':
+(rerunfilecheck)             Before: F543352338A39577C47EA8051D1D690E;193
+(rerunfilecheck)             After:  89E73CEC222E1C2FB0F8992BD6380116;966.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 13186 strings out of 480790
- 206588 string characters out of 2897301
- 526732 words of memory out of 3000000
- 28840 multiletter control sequences out of 15000+200000
- 578966 words of font info for 157 fonts, out of 3000000 for 9000
+ 13235 strings out of 480790
+ 206921 string characters out of 2897301
+ 529101 words of memory out of 3000000
+ 28839 multiletter control sequences out of 15000+200000
+ 580706 words of font info for 190 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,14n,45p,287b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,45p,487b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplr
 c8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
 uplb8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
-no/uplr8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
-atino/uplri8a.pfb>
-Output written on articulo.pdf (2 pages, 90209 bytes).
+no/uplr8a.pfb>
+Output written on articulo.pdf (3 pages, 82980 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 46630 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 42529 words of extra memory for PDF output out of 42996 (max. 10000000)
 
